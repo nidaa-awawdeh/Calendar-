@@ -1,7 +1,7 @@
 .cal {
-    background-color: rgb(241, 116, 179);
+    background-color: rgb(235, 225, 230);
     border-spacing: 0;
-    border: 5px solid rgb(255, 172, 241);
+    border: 5px solid rgb(146, 140, 145);
  
     width: 500px;
     height: 500px;
@@ -10,11 +10,11 @@
 }
  
 tr:nth-child(even) {
-     background-color: rgb(255, 172, 241);;
+     background-color: rgb(231, 223, 230);
 }
 
 tr:nth-child(odd) {
-     background-color: rgb(187, 184, 186);
+     background-color: rgb(218, 198, 211);
 }
  tr:last-child {
   
@@ -27,13 +27,13 @@ tr:nth-child(odd) {
  }
 
   table caption {
-      background :rgb(238, 210, 215) ;
+      background :rgb(199, 199, 199) ;
        width:200px;
        height:40px;
 text-transform: uppercase;
 margin:  0 auto ;
-border: rgb(255, 172, 241) 5px double;
- border-radius: 40px 40px 90px 90px; 
+border: rgb(134, 129, 133) 5px double;
+ border-radius: 20px 20px ; 
  margin-top:20px ;
   }
 
@@ -44,7 +44,7 @@ border: rgb(255, 172, 241) 5px double;
 
   th {
     text-align: center;
-      background-color: rgb(194, 222, 238);
+      background-color: rgb(243, 190, 230);
   }
 
   .cal td {
@@ -53,7 +53,9 @@ border: rgb(255, 172, 241) 5px double;
       height: 50px;
   }
   .holiday {
-      background-color: rosybrown;
+      background-color: #aca5a5;
+      border-right : rgb(95, 93, 93) 2px dashed ;
+      border-bottom: rgb(95, 93, 93) 2px solid;
   }
 
   span {
@@ -65,5 +67,39 @@ border: rgb(255, 172, 241) 5px double;
       visibility: visible; 
   }
 td {
-      border: rosybrown 1px solid;
+      border: rgb(197, 197, 197) 1px solid;
   }
+
+  
+ @media only screen and (max-width: 600px) {
+  body {
+    background-color:rgb(226, 71, 110);
+
+   
+  }
+
+  .cal {
+       background-color: rgb(226, 142, 184);
+    border-spacing: 0;
+    border: 5px solid rgb(226, 71, 110);
+   
+ 
+    width: 50px;
+    height: 200px;
+  margin:  0  auto;
+  }
+  .holiday {
+
+     background-color: rgb(243, 190, 230);
+      border-right : rgb(95, 93, 93) 2px dashed ;
+      border-bottom: rgb(226, 71, 110) 2px solid;
+  }
+
+  table caption {
+    
+     background-color: rgb(243, 190, 230);
+       border-top : rgb(226, 71, 110) 2px solid ;
+      border-bottom: rgb(226, 71, 110) 2px solid;
+     
+  }
+ }
